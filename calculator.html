@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <article>
+      <h1>ISMAIL CODE</h1>
+      <p>SP19-BCS-091 --ISMAIL BUTT--</p>
+      <p>Teacher : Muhammad Ramzan</p>
+    </article>
+    <div class="title center top">ISMAIL CODE</div>
+    <table border="1" class="center">
+      <tr>
+        <td colspan="3"><input type="text" id="result" /></td>
+        <td>
+          <!--Addding Buttons.The <button> tag defines a clickable button.-->
+          <input
+            type="button"
+            class="function"
+            value="c"
+            onclick="clearScreen()"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="1"
+            onclick="showNumber('1')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="2"
+            onclick="showNumber('2')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="3"
+            onclick="showNumber('3')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            value="/"
+            class="function"
+            onclick="showNumber('/')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="4"
+            onclick="showNumber('4')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="5"
+            onclick="showNumber('5')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="6"
+            onclick="showNumber('6')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            value="-"
+            class="function"
+            onclick="showNumber('-')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="7"
+            onclick="showNumber('7')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="8"
+            onclick="showNumber('8')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="integer"
+            value="9"
+            onclick="showNumber('9')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            value="+"
+            onclick="showNumber('+')"
+            class="function"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            class="function"
+            value="."
+            onclick="showNumber('.')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            class="function"
+            value="0"
+            onclick="showNumber('0')"
+          />
+        </td>
+        <td>
+          <input type="button" value="=" class="function" onclick="compute()" />
+        </td>
+        <td>
+          <input
+            type="button"
+            value="*"
+            class="function"
+            onclick="showNumber('*')"
+          />
+        </td>
+      </tr>
+    </table>
+    <!--We use a-tag too add another link of a file-->
+    <a href="./documentation.html"
+      ><p>👉👉Click here to go to the documentation 👈👈</p></a
+    >
+    <!--Linking a javascript file-->
+    <script src="./logic.js"></script>
+  </body>
+</html>
